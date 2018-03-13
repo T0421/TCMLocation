@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TCMLocationKit'
-  s.version          = '0.1'
+  s.version          = '0.1.0'
   s.summary          = 'Method library based on Baidu positioning and encapsulation.'
 
 # This description is used to generate tags and improve search results.
@@ -37,10 +37,12 @@ Pod::Spec.new do |s|
   #   'TCMLocation' => ['TCMLocationKit/Assets/*.png']
   # }
 
-   s.public_header_files = 'TCMLocationKit/*.h'
+#   s.public_header_files = 'TCMLocationKit/*.h'
    s.vendored_frameworks = "TCMLocationKit/Frameworks/*.framework"
    s.frameworks = "CoreLocation", "Foundation", "UIKit", "SystemConfiguration", "AdSupport", "Security", "CoreTelephony"
    s.libraries = "sqlite3.0","stdc++.6.0.9"
 #  s.dependency 'BMKLocationKit', '~> 1.1.0'
 #  s.dependency 'MJExtension', '~> 3.0.13'
+
+
 end

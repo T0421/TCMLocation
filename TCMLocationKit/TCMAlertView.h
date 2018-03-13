@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <TCMAlertAction.h>
+#import "TCMAlertAction.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
