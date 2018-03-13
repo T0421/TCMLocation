@@ -10,8 +10,8 @@
 //单次定位
 #import <BMKLocationKit/BMKLocationComponent.h>
 
-#import <TCMLocationAuth.h>
-#import <TCMLocation.h>
+#import "TCMLocationAuth.h"
+#import "TCMLocation.h"
 
 static BMKLocation *kLastLocation = nil;
 

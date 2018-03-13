@@ -9,7 +9,7 @@
 
 #import <BMKLocationKit/BMKLocationAuth.h>
 #import <CoreLocation/CLLocationManager.h>
-#import <TCMAlertView.h>
+#import "TCMAlertView.h"
 
 /**百度定位唯一识别码（Ak）*/
 const NSString *const TCMBaiduLocationAK = @"org.cocoapods.demo.TCMLocation-Example.AK";

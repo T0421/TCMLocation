@@ -6,7 +6,7 @@
 //
 
 #import "TCMAlertView.h"
-#import <TCMAlertAction.h>
+#import "TCMAlertAction.h"
 
 
 @interface TCMAlertView()<UIAlertViewDelegate>
