@@ -17,8 +17,7 @@
 
 @implementation TCMViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     UIButton *button = [UIButton buttonWithType:(UIButtonTypeRoundedRect)];
@@ -57,7 +56,7 @@
 
         //stop location
         //tcm_location_stop();
-    });
+    }, YES);
 
 }
 
