@@ -145,16 +145,9 @@ const NSString *const TCMBaiduLocationAK = @"org.cocoapods.demo.TCMLocation-Exam
  * 定位授权
  */
 + (void)locationAuth{
-    if (@available(iOS 10.0, *)) {
-        NSURL * url = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
-        if ([[UIApplication sharedApplication] canOpenURL:url]) {
-            [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:nil];
-        }
-    } else {
-        NSURL * url = [NSURL URLWithString:@"prefs:root=LOCATION_SERVICES"];
-        if ([[UIApplication sharedApplication] canOpenURL:url]) {
-            [[UIApplication sharedApplication] openURL:url];
-        }
+    NSURL * url = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
+    if ([[UIApplication sharedApplication] canOpenURL:url]) {
+        [[UIApplication sharedApplication] openURL:url];
     }
 }
 
